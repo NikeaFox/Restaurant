@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600;700&display=swap');
-
-$background-color : #D9D9D9;
-$base-color : #E9AF72;
-$text-color : #262626;
-$title-font-size : 4rem;
-$base-font-size : 2rem;
+$background-color: #D9D9D9;
+$base-color: #E9AF72;
+$text-color: #262626;
+$title-font-size: 4rem;
+$base-font-size: 2rem;
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 html,
 body {
     height: 100%;
     margin: 0;
 }
+
+
 /* First landing page  */
+
 .container {
     height: 100%;
     display: flex;
@@ -37,9 +40,7 @@ body {
             display: flex;
             list-style: none;
             li a {
-                background: 
-                    linear-gradient($text-color 0 0) left  var(--p, 50%) bottom 0 /var(--d, 20px) 3px no-repeat,
-                    linear-gradient($text-color 0 0) right var(--p, 50%) bottom 0 /var(--d, 20px) 3px no-repeat;
+                background: linear-gradient($text-color 0 0) left var(--p, 50%) bottom 0 /var(--d, 20px) 3px no-repeat, linear-gradient($text-color 0 0) right var(--p, 50%) bottom 0 /var(--d, 20px) 3px no-repeat;
                 transition: 0.3s, background-position 0s;
                 font-size: $base-font-size;
                 text-decoration: none;
@@ -82,8 +83,8 @@ body {
             transition: 0.3s;
             &:hover {
                 cursor: pointer;
-               transform: translateY(10px);
-           }
+                transform: translateY(10px);
+            }
         }
     }
     .side-img1 {
@@ -99,15 +100,14 @@ body {
     flex-direction: column;
     height: 100%;
     .section2-padding {
-        
-        padding-top:120px;
+        padding-top: 120px;
         height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         font-family: 'Josefin Sans', sans-serif;
         background: radial-gradient(#EBEBEB, #D4D4D4);
-        .title3{
+        .title3 {
             color: $text-color;
             font-size: $title-font-size;
             text-align: center;
@@ -129,9 +129,8 @@ body {
                 justify-content: center;
                 z-index: 2;
                 .food-order {
-
                     margin-bottom: 10px;
-                } 
+                }
                 p {
                     color: $text-color;
                     margin-top: 10px;
@@ -147,20 +146,19 @@ body {
         align-self: flex-end;
     }
 }
-.section3{
-    
+
+.section3 {
     height: 100%;
     display: flex;
     background: radial-gradient(#EBEBEB, #D4D4D4);
     .section3-padding {
-        padding-top:120px;
+        padding-top: 120px;
         height: 100%;
         display: flex;
         flex-direction: column;
         width: 100%;
         align-items: center;
         font-family: 'Josefin Sans', sans-serif;
-        
         .title4 {
             font-size: $title-font-size;
             border: 5px solid $base-color;
@@ -177,7 +175,7 @@ body {
                 display: flex;
                 margin-top: 120px;
                 flex-direction: column;
-                margin-right: 120px ;
+                margin-right: 120px;
                 .visitor {
                     display: flex;
                     .visitor-info {
@@ -188,7 +186,6 @@ body {
                         align-items: center;
                         height: 150px;
                         justify-content: space-between;
-                        
                         p {
                             font-size: $base-font-size;
                         }
@@ -198,11 +195,10 @@ body {
                     text-align: justify;
                     width: 569px;
                     font-size: $base-font-size;
-                    margin-top: 20px    ;
+                    margin-top: 20px;
                 }
             }
         }
-         
     }
     .side-img3 {
         height: 100%;
@@ -210,15 +206,14 @@ body {
         right: 0;
         align-self: flex-end;
     }
-         
 }
+
 .section4 {
     display: flex;
     flex-direction: column;
     height: 100%;
     .section4-padding {
-        
-        padding-top:120px;
+        padding-top: 120px;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -233,13 +228,13 @@ body {
             background-color: #F2F2F2;
             padding: 40px 220px 80px 220px;
             border-radius: 50px;
-            .mail-box-title{
+            .mail-box-title {
                 font-size: $title-font-size;
             }
-            .mail{
+            .mail {
                 margin-top: 50px;
                 display: flex;
-                .email{
+                .email {
                     border-radius: 50px;
                     font-size: $base-font-size;
                     padding-left: 30px;
@@ -249,10 +244,10 @@ body {
                     background-color: #F2F2F2;
                     border: 5px solid $base-color;
                 }
-                .get-button{
+                .get-button {
                     border: 5px solid $base-color;
                     background-color: #F2F2F2;
-                    margin-left: 610px ;
+                    margin-left: 610px;
                     position: absolute;
                     border-radius: 50px;
                     width: 170px;
@@ -269,7 +264,8 @@ body {
         }
     }
 }
-footer{
+
+footer {
     margin-top: 60px;
     display: flex;
     height: 100%;
@@ -291,7 +287,7 @@ footer{
             align-items: center;
             .social-media {
                 margin-top: 30px;
-                img{
+                img {
                     margin-right: 10px;
                 }
             }
@@ -300,15 +296,15 @@ footer{
             display: flex;
             flex-direction: column;
             font-size: 1rem;
-            .contact-element{
+            .contact-element {
                 margin-bottom: 50px;
                 display: flex;
                 justify-content: flex-start;
-                img{
+                img {
                     margin-right: 20px;
                 }
             }
-            .contact-title{
+            .contact-title {
                 font-size: $base-font-size;
                 margin-bottom: 40px;
             }
@@ -316,7 +312,7 @@ footer{
         .support {
             display: flex;
             flex-direction: column;
-            a{
+            a {
                 text-decoration: none;
                 color: $background-color;
                 font-size: 1rem;
@@ -329,7 +325,7 @@ footer{
         .info {
             display: flex;
             flex-direction: column;
-            a{
+            a {
                 text-decoration: none;
                 color: $background-color;
                 margin-bottom: 30px;
